@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+body{
+    background-color: hwb(0 93% 7%);
+}
+.content{
+    max-width: 100%;
+    margin:0 auto;
+    background-color :#bdbac3;
+    padding: 20px;
+}
+.header:hover{
+  
+}
+
+.image{
+    width: 120px;
+    height: 100px;
+    border: solid darkturquoise 2px;
+    border-radius: 50%;
+    float: left;
+    opacity:0.5;
+}
+.image:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.name{
+   
+    padding: 30px;
+    float: left;
+    color:black;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+}
+.name:hover{
+    cursor: pointer;
+}
+.contact{
+    float: right;
+    display: inline;
+}
+.contact a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    color:black;
+}
+.contact a:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    padding-bottom: none;
+    padding: auto 0;
+    max-width: 100%;
+}
+.information{
+
+}
+.div1{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    font-weight: bold;
+}
+.right-div{
+    width: 70%;
+    float: left;
+   
+}
+.common-hr{
+    border: solid black 2px;
+    max-width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.edu-left{
+    float: left;
+    max-width: 45%;
+}
+.edu-right{
+    float: right;
+    max-width: 45%;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer a:hover{
+    background-color:darkgray;
+    text-decoration: underline;
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer p:hover{
+    cursor: pointer;
+}
